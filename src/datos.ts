@@ -1,10 +1,12 @@
+// Ejercicio1_Clase2 Ingreso de datos: ejemplo
+
 let btnEnv = document.getElementById("btnEnviar");
-let dato = document.forms[0].dato;
+let dato = document.forms[0];
 let rotulo = document.getElementById("rotulo");
+
 btnEnv.addEventListener("click" , () => {
-// TU CODIGO VA AQUI, POR EJEMPLO:
-console.log("el dato ingresado es ",dato.value);
-//}
+console.log("el dato ingresado es",dato.value);
+});
 
 
 rotulo.innerHTML = "Ingrese un dato: ";
